@@ -1,0 +1,54 @@
+Atividade 1
+
+ Explique com suas palavras e cite exemplos utilizando no mínimo 2 linhas para cada alternativa.
+
+a)	Select – é comando usado para selecionar tabelas ou campos específicos, com objetivo de obter o valor inserido.
+
+select * from tb_marcas (Seleciona todos os dados da tabela marcas, mostrando todos os campos);
+
+b)	Insert – é comando usado para inserir dados dentro de uma tabela específica (Popular a tabela).
+
+insert into tb_marcas(nome, pais_origem)  values (“Nike”, “EUA”);
+
+c)	Update – é comando usado para atualizar dado dentro de uma tabela específica.
+
+update tb_marcas set nome = “Adidas” where id = 1;
+
+d)	Delete – é usado para deletar dados de uma tabela específica.
+
+delete from tb_marcas where id = “1”;
+
+e)	Create Table – é usado para criar uma tabela no database.
+
+create tablet b_marcas( 
+id bigint auto incremente,
+nome varchar(50) not null,
+preco float not null,
+
+primary key(id)
+
+);
+
+f)	Drop Table – é usado para deletar uma tabela existente.
+
+drop tablet b_marcas;
+
+g)	Alter Table – é usado para modificar a estrutura de uma tabela.
+
+alter tablet b_marcas add ativo bollean;
+
+
+Atividade 2
+
+Informe pelo menos 5 tipagens utilizadas no Mysql e diga a sua equivalência em Java (ex: varchar = String)
+
+
+a)	MySQL = float Java = float
+
+b)	MySQL = bigint Java = long
+
+c)	MySQL = double Java = double
+
+d)	MySQL = boolean Java = boolean
+
+e)	MySQL = int Java = int
